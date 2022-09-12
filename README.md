@@ -30,7 +30,7 @@ review
 2022-10-06
 </td>
 <td style="text-align:left;">
-Overview of Statistics/Basic Vocabulary
+Overview of Statistics/One-Variable Data Analysis
 </td>
 <td style="text-align:left;">
 </td>
@@ -45,7 +45,7 @@ Overview of Statistics/Basic Vocabulary
 2022-10-13
 </td>
 <td style="text-align:left;">
-One-Variable Data Analysis
+No Lecture
 </td>
 <td style="text-align:left;">
 </td>
