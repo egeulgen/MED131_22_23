@@ -45,7 +45,7 @@ Overview of Statistics/One-Variable Data Analysis
 2022-10-13
 </td>
 <td style="text-align:left;">
-No Lecture
+Introduction to Programming with R
 </td>
 <td style="text-align:left;">
 </td>
