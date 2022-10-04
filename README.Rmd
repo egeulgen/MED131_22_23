@@ -19,6 +19,8 @@ sched_df$review[14] <- "review before final"
 
 # links to lectures
 base_url <- "https://github.com/egeulgen/MED131_22_23/blob/main/"
+sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = paste0(base_url, "lectures/0.intro.pdf"))
+sched_df$Subject[2] <- kableExtra::cell_spec(sched_df$Subject[2], "html", link = paste0(base_url, "lectures/1.overview_one_var_EDA.pdf"))
 # sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = paste0(base_url, "lectures/1.descriptive.pdf"))
 
 kableExtra::row_spec(kableExtra::row_spec(knitr::kable(sched_df, format = "html", escape = FALSE), 

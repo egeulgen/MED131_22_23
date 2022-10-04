@@ -30,7 +30,24 @@ review
 2022-10-06
 </td>
 <td style="text-align:left;">
-Overview of Statistics/One-Variable Data Analysis
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/0.intro.pdf" style="     ">Introduction
+to the Course</a>
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+2022-10-06
+</td>
+<td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/1.overview_one_var_EDA.pdf" style="     ">Overview
+of Statistics/One-Variable Data Analysis</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -220,6 +237,7 @@ Power Analysis and Sample Size Calculation
 Final Project
 </td>
 <td style="text-align:left;">
+review before final
 </td>
 </tr>
 <tr>
@@ -235,7 +253,6 @@ Review before final
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
-review before final
 </td>
 </tr>
 <tr>
