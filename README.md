@@ -76,7 +76,7 @@ HW1
 2022-10-27
 </td>
 <td style="text-align:left;">
-Hypothesis testing - one sample
+Hypothesis Testing - One Sample
 </td>
 <td style="text-align:left;">
 </td>
@@ -91,7 +91,7 @@ Hypothesis testing - one sample
 2022-11-03
 </td>
 <td style="text-align:left;">
-Hypothesis testing - two samples
+Hypothesis Testing - Two Samples
 </td>
 <td style="text-align:left;">
 </td>
@@ -106,7 +106,7 @@ Hypothesis testing - two samples
 2022-11-10
 </td>
 <td style="text-align:left;">
-Hypothesis testing - \>2 samples
+Hypothesis Testing - \>2 Samples
 </td>
 <td style="text-align:left;">
 HW2
@@ -122,7 +122,7 @@ HW2
 2022-11-17
 </td>
 <td style="text-align:left;">
-Hypothesis testing - categorical outcomes
+Hypothesis Testing - Categorical Outcomes
 </td>
 <td style="text-align:left;">
 </td>
@@ -153,7 +153,7 @@ Midterm Exam
 2022-12-01
 </td>
 <td style="text-align:left;">
-Hypothesis testing - Nonparametric tests
+Hypothesis Testing - Non-Parametric Tests
 </td>
 <td style="text-align:left;">
 </td>
@@ -168,7 +168,7 @@ Hypothesis testing - Nonparametric tests
 2022-12-08
 </td>
 <td style="text-align:left;">
-Linear regression
+Linear Regression
 </td>
 <td style="text-align:left;">
 </td>
@@ -183,7 +183,7 @@ Linear regression
 2022-12-15
 </td>
 <td style="text-align:left;">
-Logistic and Poisson regression
+Logistic and Poisson Tegression
 </td>
 <td style="text-align:left;">
 HW3
@@ -199,7 +199,7 @@ HW3
 2022-12-22
 </td>
 <td style="text-align:left;">
-Sampling methods and missing data
+Sampling Methods and Missing Data
 </td>
 <td style="text-align:left;">
 </td>
@@ -214,7 +214,7 @@ Sampling methods and missing data
 2022-12-29
 </td>
 <td style="text-align:left;">
-Power analysis and sample size calculation
+Power Analysis and Sample Size Calculation
 </td>
 <td style="text-align:left;">
 Final Project
