@@ -77,7 +77,8 @@ Introduction to Programming with R
 2022-10-20
 </td>
 <td style="text-align:left;">
-Two-Variable Data Analysis
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/3.two_var_EDA_RV.pdf" style="     ">Two-Variable
+Data Analysis</a>
 </td>
 <td style="text-align:left;">
 HW1
