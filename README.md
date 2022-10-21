@@ -62,7 +62,8 @@ of Statistics/One-Variable Data Analysis</a>
 2022-10-13
 </td>
 <td style="text-align:left;">
-Introduction to Programming with R
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/2.Inro_prog.pdf" style="     ">Introduction
+to Programming with R</a>
 </td>
 <td style="text-align:left;">
 </td>
