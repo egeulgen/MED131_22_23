@@ -95,7 +95,8 @@ HW1
 2022-10-27
 </td>
 <td style="text-align:left;">
-Hypothesis Testing - One Sample
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/4.hypothesis_testing_one_sample.pdf" style="     ">Hypothesis
+Testing - One Sample</a>
 </td>
 <td style="text-align:left;">
 </td>
