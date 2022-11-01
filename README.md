@@ -19,6 +19,9 @@ HW
 <th style="text-align:left;">
 review
 </th>
+<th style="text-align:left;">
+R_lecture
+</th>
 </tr>
 </thead>
 <tbody>
@@ -32,6 +35,8 @@ review
 <td style="text-align:left;">
 <a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/0.intro.pdf" style="     ">Introduction
 to the Course</a>
+</td>
+<td style="text-align:left;">
 </td>
 <td style="text-align:left;">
 </td>
@@ -53,6 +58,8 @@ of Statistics/One-Variable Data Analysis</a>
 </td>
 <td style="text-align:left;">
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
@@ -64,6 +71,8 @@ of Statistics/One-Variable Data Analysis</a>
 <td style="text-align:left;">
 <a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/2.Inro_prog.pdf" style="     ">Introduction
 to Programming with R</a>
+</td>
+<td style="text-align:left;">
 </td>
 <td style="text-align:left;">
 </td>
@@ -86,6 +95,8 @@ HW1
 </td>
 <td style="text-align:left;">
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
@@ -99,8 +110,12 @@ HW1
 Testing - One Sample</a>
 </td>
 <td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/Homeworks/HW-1.R" style="     "></a>
 </td>
 <td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/scripts/4.basics_conf_int.pdf" style="     ">Conf.Int.</a>
 </td>
 </tr>
 <tr>
@@ -111,7 +126,10 @@ Testing - One Sample</a>
 2022-11-03
 </td>
 <td style="text-align:left;">
-Hypothesis Testing - Two Samples
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/5.two_sample.pdf" style="     ">Hypothesis
+Testing - Two Samples</a>
+</td>
+<td style="text-align:left;">
 </td>
 <td style="text-align:left;">
 </td>
@@ -133,6 +151,8 @@ HW2
 </td>
 <td style="text-align:left;">
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
@@ -149,6 +169,8 @@ Hypothesis Testing - Categorical Outcomes
 <td style="text-align:left;">
 review before MT 1
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;font-weight: bold;background-color: #F4B41A !important;">
@@ -159,6 +181,8 @@ review before MT 1
 </td>
 <td style="text-align:left;font-weight: bold;background-color: #F4B41A !important;">
 Midterm Exam
+</td>
+<td style="text-align:left;font-weight: bold;background-color: #F4B41A !important;">
 </td>
 <td style="text-align:left;font-weight: bold;background-color: #F4B41A !important;">
 </td>
@@ -179,6 +203,8 @@ Hypothesis Testing - Non-Parametric Tests
 </td>
 <td style="text-align:left;">
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
@@ -189,6 +215,8 @@ Hypothesis Testing - Non-Parametric Tests
 </td>
 <td style="text-align:left;">
 Linear Regression
+</td>
+<td style="text-align:left;">
 </td>
 <td style="text-align:left;">
 </td>
@@ -210,6 +238,8 @@ HW3
 </td>
 <td style="text-align:left;">
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
@@ -220,6 +250,8 @@ HW3
 </td>
 <td style="text-align:left;">
 Sampling Methods and Missing Data
+</td>
+<td style="text-align:left;">
 </td>
 <td style="text-align:left;">
 </td>
@@ -242,6 +274,8 @@ Final Project
 <td style="text-align:left;">
 review before final
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;">
@@ -257,6 +291,8 @@ Review before final
 </td>
 <td style="text-align:left;">
 </td>
+<td style="text-align:left;">
+</td>
 </tr>
 <tr>
 <td style="text-align:right;font-weight: bold;background-color: #E2725A !important;">
@@ -267,6 +303,8 @@ Review before final
 </td>
 <td style="text-align:left;font-weight: bold;background-color: #E2725A !important;">
 Final Exam
+</td>
+<td style="text-align:left;font-weight: bold;background-color: #E2725A !important;">
 </td>
 <td style="text-align:left;font-weight: bold;background-color: #E2725A !important;">
 </td>

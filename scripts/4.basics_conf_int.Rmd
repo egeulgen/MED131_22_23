@@ -1,0 +1,108 @@
+---
+title: "Undergrad Biostatistics - R Training - Week IV"
+author: "Ege Ulgen"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R tips
+
+-   If you can't figure out how to solve an issue, Google is your friend. e.g., "how to calculate mode r"
+
+-   If you need help with the usage of a function, type `?function_name`. e.g. `?quantile`
+
+-   If you get an error, and cannot fix it. C/P the error into Google. Someone else most likely had a similar problem
+
+-   Some resources for learning the basic syntax of R;
+
+    -   Codecademy - <https://www.codecademy.com/learn/learn-r>
+
+    -   RStudio Cloud Primers - <https://rstudio.cloud/learn/primers>
+
+    -   Dataquest - <https://www.dataquest.io/course/introduction-to-data-analysis-in-r/>
+
+    -   R for Data Science - <https://r4ds.had.co.nz/index.html>
+
+-   Interesting read: <https://www.dataquest.io/blog/learn-r-for-data-science/>
+
+# Confidence Interval Example
+
+## Prepare data
+
+We'll read in the AIDS data as follows:
+
+```{r read_data}
+aids_df <- read.delim("../data/aids_dataset.txt", sep = " ")
+```
+
+We can take a look at the first 6 rows via `head()`:
+
+```{r head}
+head(aids_df)
+```
+
+We will use the first 10 patients (first 10 rows):
+
+```{r sub}
+sub_df <- aids_df[1:10, ]
+```
+
+We'll define `perc_benefit` and add it to the data frame:
+
+```{r def}
+sub_df$perc_benefit <- (sub_df$cd4_2 - sub_df$cd4_1) / sub_df$cd4_1 / (sub_df$week_2 - sub_df$week_1) * 100
+sub_df
+```
+
+## Calculate necessary values
+
+Recall that the general formula for the confidence interval of the mean is:
+
+$$ (1 - \alpha)\%\ CI = [\bar{X} - t^* \frac{s}{\sqrt{n}}, \bar{X} + t^* \frac{s}{\sqrt{n}}] $$
+
+where $\bar{X}$ is the sample mean, $s$ is the sample standard deviation, $n$ is the number of samples, and $t^*$ is the critical value (that is dependent on the confidence level).
+
+Let's first calculate the sample mean (stored in `x_bar`) and the sample standard deviation (stored in `s_x`):
+
+```{r calc}
+x_bar <- mean(sub_df$perc_benefit)
+s_x <- sd(sub_df$perc_benefit)
+```
+
+Next, we want to find the critical value $t^*$, such that 95% (our confidence level) of the area below the corresponding t distribution (displayed below) lies between  $-t^*$ and  $+t^*$. The degrees-of-freedom of the corresponding t distribution (displayed below) is $n - 1 = 10 - 1 = 9$
+
+```{r t_pdf, echo=FALSE}
+x <- seq(from = -4, to = 4, length.out = 200)
+plot(x, dt(x, 9), type = "l",
+     xlab = "t", ylab = "P")
+abline(v = c(qt(0.025, df = 10 - 1), -qt(0.025, df = 10 - 1)), col = "red")
+
+t_crit <- -qt(0.025, df = 10 - 1)
+x=seq(-4, -t_crit,length=200)
+y=dt(x, df = 9)
+polygon(c(-4, x, -t_crit),c(0,y,0),col="orange")
+
+x=seq(t_crit, 4,length=200)
+y=dt(x, df = 9)
+polygon(c(t_crit, x, 4),c(0,y,0),col="orange")
+```
+
+In the above plot of $t_9$, the white area is 95%. The left critical value is the 2.5th percentile ($(1 - .95) / 2 = 0.05 / 2 = 0.025$):
+
+```{r crit}
+qt(0.025, df = 10 - 1)
+```
+
+## The 95% Confidence Interval
+
+Recall that the general formula for the confidence interval of the mean is:
+
+$$ (1 - \alpha)\%\ CI = [\bar{X} - t^* \frac{s}{\sqrt{n}}, \bar{X} + t^* \frac{s}{\sqrt{n}}] $$
+
+```{r}
+x_bar - 2.2622 * s_x / sqrt(10)
+x_bar + 2.2622 * s_x / sqrt(10)
+```
