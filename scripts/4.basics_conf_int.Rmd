@@ -106,3 +106,14 @@ $$ (1 - \alpha)\%\ CI = [\bar{X} - t^* \frac{s}{\sqrt{n}}, \bar{X} + t^* \frac{s
 x_bar - 2.2622 * s_x / sqrt(10)
 x_bar + 2.2622 * s_x / sqrt(10)
 ```
+
+
+## via the built-in `t.test()` function`
+
+```{r t.test}
+t.test(sub_df$perc_benefit, conf.level = .95)
+
+res <- t.test(sub_df$perc_benefit, conf.level = .90)
+res$conf.int
+```
+
