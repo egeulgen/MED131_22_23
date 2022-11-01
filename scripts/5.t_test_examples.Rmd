@@ -1,0 +1,118 @@
+---
+title: "Undergrad Biostatistics - R Training - Week V"
+author: "Ege Ulgen"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# One-sample t Test
+
+We will use the AIDS data again (this time reading from a URL:
+
+```{r read}
+URL <- "https://raw.githubusercontent.com/egeulgen/MED131_22_23/main/data/aids_dataset.txt"
+aids_df <- read.delim(URL, sep = " ")
+```
+
+Let's explore the data:
+```{r eda}
+# print first 6 rows (default)
+head(aids_df)
+
+# how many patients are there in each treatment group?
+table(aids_df$treatment)
+
+# summary of all variables
+summary(aids_df)
+
+boxplot(aids_df$cd4_2)
+boxplot(aids_df$cd4_2~aids_df$treatment)
+```
+
+We'll use the "trt1" subset and perform hypothesis tests for CD4 at second measurement:
+
+```{r trt1}
+# subset for trt1
+trt1_df <- subset(aids_df, treatment == "trt1")
+
+summary(trt1_df$cd4_2)
+hist(trt1_df$cd4_2)
+```
+
+
+```{r}
+?t.test
+
+# is the CD4 level at week 2 for trt1 different than 0?
+t.test(trt1_df$cd4_2)
+
+# is the CD4 level at week 2 for trt1 different than 20?
+t.test(trt1_df$cd4_2, mu = 20)
+
+# is the CD4 level at week 2 for trt1 different than 25?
+t.test(trt1_df$cd4_2, mu = 25)
+
+
+# is the CD4 level at week 2 for trt1 different than 20? (alpha = 0.1, conf. level = 90%)
+t.test(trt1_df$cd4_2, mu = 20, conf.level = 0.9)
+
+# is the CD4 level at week 2 for trt1 different than 20? (alpha = 0.01, conf. level = 99%)
+t.test(trt1_df$cd4_2, mu = 20, conf.level = 0.99)
+
+
+# is the CD4 level at week 2 for trt1 larger than 25?
+t.test(trt1_df$cd4_2, mu = 25, alternative = "greater")
+
+# is the CD4 level at week 2 for trt1 smaller than 60?
+t.test(trt1_df$cd4_2, mu = 60, alternative = "less")
+```
+
+# Two-sample t Test
+
+We'll use the `genderweight` data from the `datarium` package for this exercise. First, let's install the package (you'll need to this only once):
+
+```{r pkg}
+# install.packages("datarium")
+```
+
+Let's load and explore the data:
+
+```{r}
+data("genderweight", package = "datarium")
+
+head(genderweight)
+
+# frequency table of gender (group)
+table(genderweight$group)
+
+# histogram of weight (overall)
+hist(genderweight$weight)
+
+# boxplot of weight (overall)
+boxplot(genderweight$weight)
+
+# boxplot of weight by gender
+boxplot(genderweight$weight~genderweight$group)
+
+# mean weight of men
+mean(genderweight$weight[genderweight$group == "M"])
+
+# mean weight of women
+mean(genderweight$weight[genderweight$group == "F"])
+
+# sd of weight of men
+sd(genderweight$weight[genderweight$group == "M"])
+
+# sd of weight of women
+sd(genderweight$weight[genderweight$group == "F"])
+```
+
+Is the mean weight of men significantly different than the mean weight of women?
+
+```{r twosamptest}
+t.test(weight~group, data = genderweight)
+```
+

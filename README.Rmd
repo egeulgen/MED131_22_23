@@ -21,10 +21,11 @@ sched_df$review[14] <- "review before final"
 base_url <- "https://github.com/egeulgen/MED131_22_23/blob/main/"
 
 # links to HWs
-sched_df$HW[5] <- kableExtra::cell_spec(sched_df$HW[5], "html", link = paste0(base_url, "Homeworks/HW-1.R"))
+sched_df$HW[4] <- kableExtra::cell_spec(sched_df$HW[4], "html", link = paste0(base_url, "Homeworks/HW-1.R"))
 
 # links to R lectures
 sched_df$R_lecture[5] <- kableExtra::cell_spec("Conf.Int.", "html", link = paste0(base_url, "scripts/4.basics_conf_int.pdf"))
+sched_df$R_lecture[6] <- kableExtra::cell_spec("t tests", "html", link = paste0(base_url, "scripts/5.t_test_examples.pdf"))
 
 # links to lectures
 sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = paste0(base_url, "lectures/0.intro.pdf"))

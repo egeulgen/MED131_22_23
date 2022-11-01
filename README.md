@@ -91,7 +91,7 @@ to Programming with R</a>
 Data Analysis</a>
 </td>
 <td style="text-align:left;">
-HW1
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/Homeworks/HW-1.R" style="     ">HW1</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -110,7 +110,6 @@ HW1
 Testing - One Sample</a>
 </td>
 <td style="text-align:left;">
-<a href="https://github.com/egeulgen/MED131_22_23/blob/main/Homeworks/HW-1.R" style="     "></a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -134,6 +133,8 @@ Testing - Two Samples</a>
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/scripts/5.t_test_examples.pdf" style="     ">t
+tests</a>
 </td>
 </tr>
 <tr>
