@@ -26,6 +26,7 @@ sched_df$HW[4] <- kableExtra::cell_spec(sched_df$HW[4], "html", link = paste0(ba
 # links to R lectures
 sched_df$R_lecture[5] <- kableExtra::cell_spec("Conf.Int.", "html", link = paste0(base_url, "scripts/4.basics_conf_int.pdf"))
 sched_df$R_lecture[6] <- kableExtra::cell_spec("t tests", "html", link = paste0(base_url, "scripts/5.t_test_examples.pdf"))
+sched_df$R_lecture[7] <- kableExtra::cell_spec("ANOVA", "html", link = paste0(base_url, "scripts/6.ANOVA_examples.pdf"))
 
 # links to lectures
 sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = paste0(base_url, "lectures/0.intro.pdf"))
@@ -34,6 +35,7 @@ sched_df$Subject[3] <- kableExtra::cell_spec(sched_df$Subject[3], "html", link =
 sched_df$Subject[4] <- kableExtra::cell_spec(sched_df$Subject[4], "html", link = paste0(base_url, "lectures/3.two_var_EDA_RV.pdf"))
 sched_df$Subject[5] <- kableExtra::cell_spec(sched_df$Subject[5], "html", link = paste0(base_url, "lectures/4.hypothesis_testing_one_sample.pdf"))
 sched_df$Subject[6] <- kableExtra::cell_spec(sched_df$Subject[6], "html", link = paste0(base_url, "lectures/5.two_sample.pdf"))
+sched_df$Subject[7] <- kableExtra::cell_spec(sched_df$Subject[7], "html", link = paste0(base_url, "lectures/6.ANOVA.pdf"))
 
 kableExtra::row_spec(kableExtra::row_spec(knitr::kable(sched_df, format = "html", escape = FALSE), 
                                           which(grepl("Midterm", sched_df$Subject)), 

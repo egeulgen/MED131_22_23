@@ -145,14 +145,15 @@ tests</a>
 2022-11-10
 </td>
 <td style="text-align:left;">
-Hypothesis Testing - \>2 Samples
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/6.ANOVA.pdf" style="     ">Hypothesis
+Testing - \>2 Samples</a>
 </td>
 <td style="text-align:left;">
-HW2
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/scripts/6.ANOVA_examples.pdf" style="     ">ANOVA</a>
 </td>
 </tr>
 <tr>
@@ -166,6 +167,7 @@ HW2
 Hypothesis Testing - Categorical Outcomes
 </td>
 <td style="text-align:left;">
+HW2
 </td>
 <td style="text-align:left;">
 review before MT 1
