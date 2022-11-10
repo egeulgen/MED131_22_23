@@ -164,7 +164,8 @@ Testing - \>2 Samples</a>
 2022-11-17
 </td>
 <td style="text-align:left;">
-Hypothesis Testing - Categorical Outcomes
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/7.chi_squared.pdf" style="     ">Hypothesis
+Testing - Categorical Outcomes</a>
 </td>
 <td style="text-align:left;">
 HW2
