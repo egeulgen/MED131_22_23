@@ -168,10 +168,11 @@ Testing - \>2 Samples</a>
 Testing - Categorical Outcomes</a>
 </td>
 <td style="text-align:left;">
-HW2
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/Homeworks/HW2.pdf" style="     ">HW2</a>
 </td>
 <td style="text-align:left;">
-review before MT 1
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/7.MT_review.pdf" style="     ">review
+before MT</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -276,7 +277,6 @@ Power Analysis and Sample Size Calculation
 Final Project
 </td>
 <td style="text-align:left;">
-review before final
 </td>
 <td style="text-align:left;">
 </td>
@@ -294,6 +294,7 @@ Review before final
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
+review before final
 </td>
 <td style="text-align:left;">
 </td>
