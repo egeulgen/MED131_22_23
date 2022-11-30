@@ -202,7 +202,8 @@ Midterm Exam
 2022-12-01
 </td>
 <td style="text-align:left;">
-Hypothesis Testing - Non-Parametric Tests
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/9.nonparametric_tests.pdf" style="     ">Hypothesis
+Testing - Non-Parametric Tests</a>
 </td>
 <td style="text-align:left;">
 </td>
