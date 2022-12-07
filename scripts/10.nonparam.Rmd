@@ -1,0 +1,69 @@
+---
+title: "Undergrad Biostatistics - R Training - Week X"
+author: "Ege Ulgen"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Chi-squared Test
+
+We'll read data from an online resource and perform Chi-squared test to see whether treatment is associated with improvement or not.
+
+```{r chisq}
+treatment_df <- read.csv("https://goo.gl/j6lRXD")
+
+head(treatment_df)
+dim(treatment_df)
+
+
+
+table(treatment_df$treatment, treatment_df$improvement)
+
+chisq.test(table(treatment_df$treatment, treatment_df$improvement))
+# we reject the null hypothesis and conclude that the two variables are associated
+```
+
+A detailed tutorial can be found on: http://www.sthda.com/english/wiki/chi-square-test-of-independence-in-r
+
+## Assessment of normality
+
+```{r norm}
+aids_df <- read.delim("../data/aids_dataset.txt", sep = " ")
+
+### inspect the distribution of age and CD4 at week 1
+hist(aids_df$age, xlab = "Age", main = "Normal Distribution")
+hist(aids_df$cd4_1, xlab = "CD4 count at week 1", main = "Positively Skewed Distribution")
+
+## QQ plot
+qqnorm(aids_df$age, main = "Normal Distribution")
+qqline(aids_df$age)
+
+qqnorm(aids_df$cd4_1, main = "Positively Skewed Distribution")
+qqline(aids_df$cd4_1)
+
+## Shapiro test
+shapiro.test(aids_df$cd4_1)
+shapiro.test(aids_df$age)
+
+
+### "normalize" CD4 at week 1
+hist(log(aids_df$cd4_1), xlab = "CD4 count at week 1")
+```
+
+## Non-parametric Tests
+
+```{r nonparam}
+# is the CD4 at week 1 different between genders?
+boxplot(aids_df$cd4_1~aids_df$gender)
+wilcox.test(aids_df$cd4_1~aids_df$gender)
+
+# is the CD4 at week 2 different between treatment groups?
+boxplot(aids_df$cd4_2~aids_df$treatment)
+kruskal.test(aids_df$cd4_2~aids_df$treatment)
+
+pairwise.wilcox.test(aids_df$cd4_2, aids_df$treatment)
+```
+

@@ -27,6 +27,7 @@ sched_df$HW[8] <- kableExtra::cell_spec(sched_df$HW[8], "html", link = paste0(ba
 sched_df$R_lecture[5] <- kableExtra::cell_spec("Conf.Int.", "html", link = paste0(base_url, "scripts/4.basics_conf_int.pdf"))
 sched_df$R_lecture[6] <- kableExtra::cell_spec("t tests", "html", link = paste0(base_url, "scripts/5.t_test_examples.pdf"))
 sched_df$R_lecture[7] <- kableExtra::cell_spec("ANOVA", "html", link = paste0(base_url, "scripts/6.ANOVA_examples.pdf"))
+sched_df$R_lecture[11] <- kableExtra::cell_spec("non-param", "html", link = paste0(base_url, "scripts/10.nonparam.pdf"))
 
 # links to lectures
 sched_df$Subject[1] <- kableExtra::cell_spec(sched_df$Subject[1], "html", link = paste0(base_url, "lectures/0.intro.pdf"))
@@ -38,6 +39,7 @@ sched_df$Subject[6] <- kableExtra::cell_spec(sched_df$Subject[6], "html", link =
 sched_df$Subject[7] <- kableExtra::cell_spec(sched_df$Subject[7], "html", link = paste0(base_url, "lectures/6.ANOVA.pdf"))
 sched_df$Subject[8] <- kableExtra::cell_spec(sched_df$Subject[8], "html", link = paste0(base_url, "lectures/7.chi_squared.pdf"))
 sched_df$Subject[10] <- kableExtra::cell_spec(sched_df$Subject[10], "html", link = paste0(base_url, "lectures/9.nonparametric_tests.pdf"))
+sched_df$Subject[11] <- kableExtra::cell_spec(sched_df$Subject[11], "html", link = paste0(base_url, "lectures/10.linear_regression.pdf"))
 
 
 sched_df$review[8] <- kableExtra::cell_spec(sched_df$review[8], "html", link = paste0(base_url, "lectures/7.MT_review.pdf"))

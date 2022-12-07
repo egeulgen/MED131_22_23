@@ -220,13 +220,15 @@ Testing - Non-Parametric Tests</a>
 2022-12-08
 </td>
 <td style="text-align:left;">
-Linear Regression
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/10.linear_regression.pdf" style="     ">Linear
+Regression</a>
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/scripts/10.nonparam.pdf" style="     ">non-param</a>
 </td>
 </tr>
 <tr>
