@@ -239,7 +239,8 @@ Regression</a>
 2022-12-15
 </td>
 <td style="text-align:left;">
-Logistic and Poisson Tegression
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/11.logistic_poisson_regression.pdf" style="     ">Logistic
+and Poisson Tegression</a>
 </td>
 <td style="text-align:left;">
 HW3
@@ -247,6 +248,7 @@ HW3
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/scripts/11.regression.pdf" style="     ">regression</a>
 </td>
 </tr>
 <tr>
