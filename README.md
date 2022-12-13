@@ -243,7 +243,7 @@ Regression</a>
 and Poisson Tegression</a>
 </td>
 <td style="text-align:left;">
-HW3
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/Homeworks/HW3.pdf" style="     ">HW3</a>
 </td>
 <td style="text-align:left;">
 </td>

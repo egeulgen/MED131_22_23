@@ -22,6 +22,7 @@ base_url <- "https://github.com/egeulgen/MED131_22_23/blob/main/"
 # links to HWs
 sched_df$HW[4] <- kableExtra::cell_spec(sched_df$HW[4], "html", link = paste0(base_url, "Homeworks/HW-1.R"))
 sched_df$HW[8] <- kableExtra::cell_spec(sched_df$HW[8], "html", link = paste0(base_url, "Homeworks/HW2.pdf"))
+sched_df$HW[12] <- kableExtra::cell_spec(sched_df$HW[12], "html", link = paste0(base_url, "Homeworks/HW3.pdf"))
 
 # links to R lectures
 sched_df$R_lecture[5] <- kableExtra::cell_spec("Conf.Int.", "html", link = paste0(base_url, "scripts/4.basics_conf_int.pdf"))
