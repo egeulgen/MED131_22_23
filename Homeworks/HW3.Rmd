@@ -45,7 +45,7 @@ $$PSA_i = \beta_0 + \beta_2 age_i$$
 $$PSA_i = \beta_0 + \beta_2 age_i + \beta_3 (seminal\ vesical\ invasion)_i + \beta_4 I(Gleason\ score_i = 7) + \beta_5 I(Gleason\ score_i = 8) $$
 $$\ + \beta_6 I(Gleason\ score_i = 7) age_i + \beta_7 I(Gleason\ score_i = 8) age_i$$
 
-3. [40 pts] Defining low birt hweight (naming it `low`) as `Birthweight` < 2.5, fit the following logistic regression model and interpret the results.
+3. [40 pts] Defining low birth weight (naming it `low`) as `Birthweight` < 2.5, fit the following logistic regression model and interpret the results.
 
 ```{r echo=FALSE}
 descriptions_df <- data.frame(variable = c("mage", "Gestation", "mppwt"),
