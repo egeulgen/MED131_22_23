@@ -259,7 +259,8 @@ and Poisson Tegression</a>
 2022-12-22
 </td>
 <td style="text-align:left;">
-Sampling Methods and Missing Data
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/12.sampling_missing.pdf" style="     ">Sampling
+Methods and Missing Data</a>
 </td>
 <td style="text-align:left;">
 </td>
