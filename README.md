@@ -277,7 +277,9 @@ Methods and Missing Data</a>
 2022-12-29
 </td>
 <td style="text-align:left;">
-Power Analysis and Sample Size Calculation
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/13.power_analysis.pdf" style="     ">Power
+Analysis</a> /
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/13.review.pdf" style="     ">Review</a>
 </td>
 <td style="text-align:left;">
 Final Project

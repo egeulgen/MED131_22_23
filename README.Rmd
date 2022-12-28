@@ -44,6 +44,8 @@ sched_df$Subject[10] <- kableExtra::cell_spec(sched_df$Subject[10], "html", link
 sched_df$Subject[11] <- kableExtra::cell_spec(sched_df$Subject[11], "html", link = paste0(base_url, "lectures/10.linear_regression.pdf"))
 sched_df$Subject[12] <- kableExtra::cell_spec(sched_df$Subject[12], "html", link = paste0(base_url, "lectures/11.logistic_poisson_regression.pdf"))
 sched_df$Subject[13] <- kableExtra::cell_spec(sched_df$Subject[13], "html", link = paste0(base_url, "lectures/12.sampling_missing.pdf"))
+sched_df$Subject[14] <- paste(kableExtra::cell_spec("Power Analysis", "html", link = paste0(base_url, "lectures/13.power_analysis.pdf")),
+                              kableExtra::cell_spec("Review", "html", link = paste0(base_url, "lectures/13.review.pdf")), sep = " / ")
 
 
 sched_df$review[8] <- kableExtra::cell_spec(sched_df$review[8], "html", link = paste0(base_url, "lectures/7.MT_review.pdf"))
