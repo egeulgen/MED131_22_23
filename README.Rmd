@@ -23,6 +23,7 @@ base_url <- "https://github.com/egeulgen/MED131_22_23/blob/main/"
 sched_df$HW[4] <- kableExtra::cell_spec(sched_df$HW[4], "html", link = paste0(base_url, "Homeworks/HW-1.R"))
 sched_df$HW[8] <- kableExtra::cell_spec(sched_df$HW[8], "html", link = paste0(base_url, "Homeworks/HW2.pdf"))
 sched_df$HW[12] <- kableExtra::cell_spec(sched_df$HW[12], "html", link = paste0(base_url, "Homeworks/HW3.pdf"))
+sched_df$HW[14] <- kableExtra::cell_spec(sched_df$HW[14], "html", link = paste0(base_url, "Homeworks/Final_project_instructions.pdf"))
 
 # links to R lectures
 sched_df$R_lecture[5] <- kableExtra::cell_spec("Conf.Int.", "html", link = paste0(base_url, "scripts/4.basics_conf_int.pdf"))
@@ -44,12 +45,10 @@ sched_df$Subject[10] <- kableExtra::cell_spec(sched_df$Subject[10], "html", link
 sched_df$Subject[11] <- kableExtra::cell_spec(sched_df$Subject[11], "html", link = paste0(base_url, "lectures/10.linear_regression.pdf"))
 sched_df$Subject[12] <- kableExtra::cell_spec(sched_df$Subject[12], "html", link = paste0(base_url, "lectures/11.logistic_poisson_regression.pdf"))
 sched_df$Subject[13] <- kableExtra::cell_spec(sched_df$Subject[13], "html", link = paste0(base_url, "lectures/12.sampling_missing.pdf"))
-sched_df$Subject[14] <- paste(kableExtra::cell_spec("Power Analysis", "html", link = paste0(base_url, "lectures/13.power_analysis.pdf")),
-                              kableExtra::cell_spec("Review", "html", link = paste0(base_url, "lectures/13.review.pdf")), sep = " / ")
-
+sched_df$Subject[14] <- kableExtra::cell_spec(sched_df$Subject[14], "html", link = paste0(base_url, "lectures/13.power_analysis.pdf"))
 
 sched_df$review[8] <- kableExtra::cell_spec(sched_df$review[8], "html", link = paste0(base_url, "lectures/7.MT_review.pdf"))
-sched_df$review[15] <- "review before final"
+sched_df$review[14] <- kableExtra::cell_spec("Review before final", "html", link = paste0(base_url, "lectures/13.review.pdf"))
 
 kableExtra::row_spec(kableExtra::row_spec(knitr::kable(sched_df, format = "html", escape = FALSE), 
                                           which(grepl("Midterm", sched_df$Subject)), 

@@ -278,13 +278,15 @@ Methods and Missing Data</a>
 </td>
 <td style="text-align:left;">
 <a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/13.power_analysis.pdf" style="     ">Power
-Analysis</a> /
-<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/13.review.pdf" style="     ">Review</a>
+Analysis and Sample Size Calculation</a>
 </td>
 <td style="text-align:left;">
-Final Project
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/Homeworks/Final_project_instructions.pdf" style="     ">Final
+Project</a>
 </td>
 <td style="text-align:left;">
+<a href="https://github.com/egeulgen/MED131_22_23/blob/main/lectures/13.review.pdf" style="     ">Review
+before final</a>
 </td>
 <td style="text-align:left;">
 </td>
@@ -297,12 +299,11 @@ Final Project
 2022-01-05
 </td>
 <td style="text-align:left;">
-Review before final
+Q&A before final
 </td>
 <td style="text-align:left;">
 </td>
 <td style="text-align:left;">
-review before final
 </td>
 <td style="text-align:left;">
 </td>
